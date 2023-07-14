@@ -9,17 +9,19 @@ html, body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header {
+.header,
+.main {
   padding: 0 calc(50vw - 520px);
 }
+
 .header__title {
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: normal;
-  border-bottom: 1px solid #0d1618;
+  border-bottom: 1px solid #2f4a4f;
 }
 
-.btn_wlc {
+.btn {
   color: #061224;
   padding: 10px 16px;
   font-size: 18px;
